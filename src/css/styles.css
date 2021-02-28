@@ -102,12 +102,12 @@ html{
      display: flex;
     flex-direction: column;
     margin: 235px 0px 200px 450px;
-    font-size: 1.72rem;
+    font-size: 1.9rem;
     font-family: 'Libre Baskerville', serif;
     
  }
 
-  
+
  /* BACKGROUNG IMAGE */
  #sec1::before{
     content: "";
@@ -134,7 +134,7 @@ html{
     border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
     margin: 50px 50px 12px 240px;
-    height: 20rem;
+    height: 22rem;
     width: 65rem;
     padding: 8px 10px;
     background-color: rgb(247, 228, 252);
@@ -183,8 +183,8 @@ html{
     height: 75%;
     z-index: -1;
     opacity: 0.7;
-    margin: 71px 0px 0px 0px;
-    padding: 0px 0px 100px 0px;
+    margin: 84px 0px 0px 0px;
+    /* padding: 0px 0px 100px 0px; */
    }
 
    /* ANIMATIONS */
@@ -193,8 +193,8 @@ html{
     transform: scale(13);
    }
    .box:hover{
-       height: 22rem;
-       width: 67rem;
+       height: 23rem;
+       width: 66rem;
     margin: 50px 50px 12px 220px;
     cursor: pointer;
     background-color: rgb(215, 253, 170);
@@ -211,15 +211,15 @@ html{
     position: absolute;
     background: url('../images/project.jpg') no-repeat center center/cover ;
     width: 100%;
-    height: 85%;
+    height: 100%;
     z-index: -1;
     opacity: 0.8;
-    margin: 86px 0px 0px 0px;
+    margin: 8px 0px 0px 0px;
     padding: 0px 0px 100px 0px;
    }
 
    .pr-item1{
-    margin: 123px 0px 0px 520px;
+    margin: 80px 0px 0px 600px;
     padding: 2px 17px 2px 17px;
     font-family: 'Lobster', cursive;
     font-size: 2.7rem;
@@ -248,7 +248,12 @@ html{
 .pr-item2:hover{
     box-shadow: -6px -6px 44px rgb(63, 62, 62);
     transform: scale(1.02);
+    cursor: pointer;
 }
+
+/* .pr-item1:hover{
+    background-color: aqua;
+} */
 
  .pro-item{
      display: flex;
@@ -269,7 +274,9 @@ html{
      display: flex;
     font-family: 'Lobster', cursive;
    justify-content: center;
+   font-size: 2rem;
    margin-top: 6px;
+   margin-bottom: 0px;
    text-decoration: underline;
    text-shadow: -2px -2px 2px rgb(252, 83, 83);
 
@@ -279,15 +286,17 @@ html{
     display: flex;
   justify-content: center;
   margin-top: 20px;
-  padding: 0px 8px 0px 8px;
+  padding: 0px 10px 0px 8px;
+  margin-bottom: 0px;
   font-family: 'Libre Baskerville', serif;
 
 }
 .pr-item2 a{
     display: flex;
   justify-content: center;
-  margin-top: 20px;
-  font-size: 2rem;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
   color: blue;
 }
   
@@ -303,11 +312,11 @@ html{
 /* EXPERIENCE SECTION */
 
 .exphead{
-    margin: 100px 0px 0px 530px;
+    margin: 80px 0px 0px 630px;
     padding: 2px 17px 2px 17px;
     font-family: 'Lobster', cursive;
     font-size: 3.3rem;
-    text-shadow: -3px -3px 3px rgb(236, 70, 40);
+    text-shadow: -2px -2px 3px rgb(236, 70, 40);
     border: 4px solid black;
     display: inline-block;
     background-color:rgb(182, 180, 180);
@@ -318,29 +327,41 @@ html{
     font-family: 'Libre Baskerville', serif;
     border: 3px solid black;
     display: flex;
+    font-size: 1.1rem;
     border-radius: 15px;
-    height: 12rem;
+    width: 21rem;
+    height: 30rem;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 50px;
     background-color: rgb(190, 247, 178);
     box-shadow: -3px -3px 6px black;
 }
+.exp-item img{
+    height: 10rem;
+    width: 19.5rem;
+    border-radius: 15px;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid black;
+}
 
 .exp-box{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
 }
 
 .exp-item button{
     margin-left: 80px;
     margin-right: 80px;
+    margin-bottom: 5px;
 }
 
 .exp-item button:hover{
    background-color: rgb(159, 241, 252);
    transform: scale(1.07);
    box-shadow: -1px -1px 3px black;
+   color: black;
 }
 
 
@@ -353,7 +374,7 @@ html{
     position: absolute;
     background: url('../images/experience.jpg') no-repeat center center/cover ;
     width: 100%;
-    height: 65%;
+    height: 100%;
     z-index: -1;
     opacity: 0.6;
     margin: 35px 0px 0px 0px;
@@ -372,10 +393,10 @@ html{
 
    .contact{
     display: inline-block;
-       font-size: 4rem;
-       margin: 140px 0px 0px 600px;
+       font-size: 3.5rem;
+       margin: 100px 0px 0px 620px;
        font-family: 'Lobster', cursive;
-       text-shadow: -4px -4px 3px rgb(63, 236, 40);
+       text-shadow: -3px -3px 3px rgb(63, 236, 40);
        border: 4px solid black;
     padding: 2px 17px 2px 17px;
     border-radius: 20px;
@@ -390,12 +411,13 @@ html{
     border: 3px solid black;
     border-radius: 25px;
     display: inline-block;
-    padding: 8px 25px 4px 25px;
+    padding: 4px 25px 4px 25px;
     background-color: rgb(166, 201, 253);
    }
 
    textarea{
        margin: 10px 0px 0px 0px;
+       height: 220px;
    }
 
    #contactus::before{
@@ -403,7 +425,7 @@ html{
     position: absolute;
     background: url('../images/contact.jpg') no-repeat center center/cover ;
     width: 100%;
-    height: 85%;
+    height: 100%;
     z-index: -1;
     /* opacity: 0.9; */
     margin: 66px 0px 0px 0px;
@@ -420,7 +442,7 @@ html{
    }
 
    .contact-item button{
-       display: flex;
+       /* display: flex; */
        padding: 4px 10px 4px 10px;
        font-size: 1.1rem;
        border-radius: 10px;
@@ -430,41 +452,30 @@ html{
        cursor: pointer;
    }
 
-   .contact-reset input{
-       display: inline-block;
+   #contact-reset input{
+       display: inline;
     cursor: pointer;
-    width: 4px;
-    /* padding: 4px 0px 4px 0px;
-    margin: 10px 100px 10px 100px; */
+    width: 90px;
+    font-size: 1.1rem;
+    height: 38px;
+    box-shadow: none;
+    margin-left: 15px;
+   }
+
+   #contact-reset input:hover{
+    background-color: rgb(206, 204, 204);
+    transform: scale(1.1);
+    box-shadow: 2px 2px 3px black;
    }
 
    .contact-item button:hover{
        background-color: rgb(206, 204, 204);
-       transform: scale(1.2);
+       transform: scale(1.1);
        box-shadow: 2px 2px 3px black;
    }
 
    /* FOOTER SECTION */
 
-   /* #footer::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.7;
-    background: url('../images/footer2.jpg' ) no-repeat center center/cover;
-  } */
-
-
-   .footer {
-    padding:40px 0;
-    background-color:#ffffff;
-    /* background: url('../images/footer2.jpg') no-repeat center center/cover ; */
-    color:#4b4c4d;
-  }
   
   .footer ul {
     padding:0;
@@ -486,7 +497,14 @@ html{
   }
   
   .footer ul a:hover {
+      color: rgb(255, 255, 255);
     opacity:1;
+    background-color: black;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 7px;
+    /* font-size: 1.2rem; */
+    text-decoration: underline;
   }
   
   .footer .social {
@@ -502,7 +520,7 @@ html{
     display:inline-block;
     text-align:center;
     border-radius:50%;
-    border:1px solid #ccc;
+    border:1px solid white;
     margin:0 8px;
     color:inherit;
     opacity:0.75;
@@ -513,9 +531,27 @@ html{
   }
   
   .footer .copyright {
+    font-family: 'Libre Baskerville', serif;
     margin-top:15px;
     text-align:center;
     font-size:13px;
-    color:#aaa;
+    color: rgb(0, 0, 0);
     margin-bottom:0;
+    font-size: 1.1rem;
   }
+  .footer::before{
+    content: "";
+    position: absolute;
+    background: url('../images/footer2.png') no-repeat center center/cover ;
+    width: 100%;
+    height: 20%;
+    z-index: -1;
+    opacity: 0.2;
+   }
+   .list-inline-item a{
+    font-family: 'Libre Baskerville', serif;
+   }
+
+   
+   
+   
