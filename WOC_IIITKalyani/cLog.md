@@ -16,3 +16,7 @@ description - (work done through in that pr)
 ### [#3](https://github.com/jatinverma14/My-Portfolio/pull/3)
     Created by- Jatin Verma
     Description - created home section, about me section, project section, experience section and contact us section.
+
+### [#6](https://github.com/jatinverma14/My-Portfolio/pull/6)
+    Created by- Naresh
+    Description - Added footer that connects to different section
