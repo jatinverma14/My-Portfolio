@@ -1,0 +1,87 @@
+.contact{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    margin-left: 38.4rem;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    font-family: 'Lobster', cursive;
+    font-size: 3.5rem;
+    border: 4px solid black;
+    display: inline-block;
+    background-color:rgb(182, 180, 180);
+    border-radius: 20px;
+    text-shadow: -3px -3px 3px rgb(63, 236, 40);
+   }
+
+   form{
+       display: inline-flex;
+       flex-direction: column;
+       justify-content: center;
+       margin: auto;
+       margin-left: 26rem;
+    font-size: 1.059rem;
+    font-family: 'Libre Baskerville', serif;
+    border: 3px solid black;
+    border-radius: 1.8rem;
+    padding: 0.3rem 1rem 0.5rem 1rem;
+    background-color: rgb(166, 201, 253);
+   }
+
+   textarea{
+       margin: 10px 0px 0px 0px;
+       height: 14rem;
+   }
+
+   #contactus::before{
+    content: "";
+    position: absolute;
+    background: url('../images/contact.jpg') no-repeat center center/cover ;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.9; */
+    margin-top: 4.6rem;
+   }
+   
+   #contactus input,
+   #contactus textarea{
+       font-size: 1.09rem;
+     width: 40rem;
+       padding: 0.3rem;
+       border-radius: 10px;
+       box-shadow: 3px 2px 3px black;
+   }
+
+   .contact-item button{
+       display: flex;
+       padding: 0.25rem 1rem 0.25rem 1rem;
+       font-size: 1.1rem;
+       border-radius: 10px;
+       /* box-shadow: -2px -2px 3px black; */
+       margin-top: 10px;
+       margin-bottom: 10px;
+       cursor: pointer;
+   }
+
+   #contact-reset input{
+    cursor: pointer;
+    width: 6.3rem;
+    font-size: 1.1rem;
+    box-shadow: none;
+    padding: 0.2rem;
+   }
+
+   #contact-reset input:hover{
+    background-color: rgb(206, 204, 204);
+    transform: scale(1.1);
+    box-shadow: 2px 2px 3px black;
+   }
+
+   .contact-item button:hover{
+       background-color: rgb(206, 204, 204);
+       transform: scale(1.1);
+       box-shadow: 2px 2px 3px black;
+   }
