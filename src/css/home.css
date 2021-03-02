@@ -1,0 +1,45 @@
+#home{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+#home_img img{ 
+    height: 30rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 7rem;
+    z-index: -1;
+    border: 2px solid rgb(128, 18, 18);
+    border-radius: 10px;
+    padding: 1px 0px 1px 0px;
+    box-shadow: -9px -9px 5px rgb(8, 0, 8);
+ }
+ 
+
+ #home_data{
+     display: flex;
+    flex-direction: column;
+    margin: 14rem 0rem 10rem 34rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-family: 'Libre Baskerville', serif;
+    
+ }
+
+
+ /* BACKGROUNG IMAGE */
+ #home::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../images/image-from-rawpixel-id-2408059-jpeg.jpg' ) no-repeat center center/cover;
+}
