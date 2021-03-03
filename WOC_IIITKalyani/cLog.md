@@ -93,3 +93,18 @@ description - (work done through in that pr)
     Created by- Jatin Verma
     Description - Added first background image
 
+### [#26](https://github.com/jatinverma14/My-Portfolio/pull/26)
+    Created by- Naresh
+    Description - Added background images for whole project
+
+### [#27](https://github.com/jatinverma14/My-Portfolio/pull/27)
+    Created by- Naresh
+    Description - Added index.js
+
+### [#28](https://github.com/jatinverma14/My-Portfolio/pull/28)
+    Created by- Jatin Verma
+    Description - Updated cLog.md by JATIN VERMA
+
+### [#29](https://github.com/jatinverma14/My-Portfolio/pull/29)
+    Created by- Naresh
+    Description - Updated cLog.md by NARESH
