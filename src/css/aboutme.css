@@ -1,11 +1,11 @@
-#aboutme{
+#aboutme {
     display: flex;
     flex-direction: column;
-}
-
-.aboutme_box{
+    height: 81vh;
+  }
+  
+  .aboutme_box {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: auto;
     border: 3px solid rgb(0, 0, 0);
@@ -18,66 +18,50 @@
     font-size: large;
     transition: all 1s ease-in-out;
     transition-duration: 1.3s;
-}
-
-.aboutme_box h1{
-    text-align: center;
-    font-size: 4rem;
-    font-family: 'Lobster', cursive;
-    text-decoration: underline;
-    text-shadow: -1px -1px 3px rgb(96, 241, 96);
-
-}
-
-.aboutme_box p{
+  }
+  
+  .aboutme_box p {
     text-align: center;
     padding: 8px;
-    font-family: 'Libre Baskerville', serif;
-
-}
-
-#aboutme_heading {
-    /* display: flex; */
-    align-items: center;
-    margin: auto;
-    margin-top: 9rem;
-    margin-bottom: 4rem;
+    font-family: "Libre Baskerville", serif;
+  }
+  
+  #aboutme_heading {
+    margin: 0px auto;
+    margin-top: 3rem;
     padding: 0.5rem 0.4rem 0.1rem 0.4rem;
-    font-family: 'Lobster', cursive;
-    font-size: 4rem;
-    text-shadow: -3px -3px 3px rgb(236, 70, 40);
-    border: 4px solid black;
-    display: inline-block;
-    background-color:rgb(182, 180, 180);
-    border-radius: 20px;
-}
-
-
-/* BACKGROUND FOR ABOUT ME */
-
-#aboutme::before{
+    font-family: "Lobster", cursive;
+    font-size: 3rem;
+    text-shadow: -2px -2px 3px rgb(236, 70, 40);
+    border: 3px solid black;
+    background-color: rgb(182, 180, 180);
+    border-radius: 16px;
+  }
+  
+  /* BACKGROUND FOR ABOUT ME */
+  
+  #aboutme::before {
     content: "";
     position: absolute;
-    background: url('../images/ABOUTME.jpg') no-repeat center center/cover ;
+    background: url("../images/ABOUTME.jpg") no-repeat center center/cover;
     width: 100%;
     height: 81%;
     z-index: -1;
     opacity: 0.7;
-    margin: 84px 0px 0px 0px;
-   }
-
-   /* ANIMATIONS */
-
-   #sec1 img:hover{
+  }
+  
+  /* ANIMATIONS */
+  
+  #sec1 img:hover {
     transform: scale(13);
-   }
-   .aboutme_box:hover{
-       height: 25rem;
-       padding: 1.5rem;
-       width: 66rem;
+  }
+  .aboutme_box:hover {
+    height: 25rem;
+    padding: 1.5rem;
+    width: 66rem;
     cursor: pointer;
     background-color: rgb(215, 253, 170);
     font-size: larger;
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
-
-   }
+  }
+  
