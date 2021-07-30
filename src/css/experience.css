@@ -10,7 +10,7 @@
     margin-bottom: 3rem;
     padding: 0.5rem 0.4rem 0.1rem 0.4rem;
     font-family: "Lobster", cursive;
-    font-size: 3rem;
+    font-size: 250%;
     text-shadow: -2px -2px 3px rgb(236, 70, 40);
     border: 3px solid black;
     background-color: rgb(182, 180, 180);
@@ -21,18 +21,22 @@
     font-family: "Libre Baskerville", serif;
     border: 3px solid black;
     display: flex;
-    font-size: 1.1rem;
+    font-size: 170%;
     border-radius: 15px;
-    width: 22.5%;
-    height: 100%;
+    max-width: 320px;
     flex-direction: column;
     margin-top: 1rem;
     background-color: rgb(190, 247, 178);
     box-shadow: -4px -4px 6px black;
   }
+
+  .exp-item div{
+padding-bottom: 1.5vh;
+  }
+
   .exp-item img {
-    height: 10rem;
-    width: 19.5rem;
+    height: 23vh;
+    width: 19.5vw;
     border-radius: 15px;
     justify-content: center;
     margin: auto;
@@ -41,11 +45,12 @@
   
   .exp-box {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
   }
   
   .exp-item button {
-    margin: auto;
+    align-self: center;
     padding: 0px 1rem;
   }
   
@@ -72,8 +77,8 @@
   
   .exp-item button {
     font-family: "Libre Baskerville", serif;
-    font-size: large;
     border: 2px solid black;
+    font-size: 70%;
     border-radius: 10px;
     text-decoration: none;
     background-color: rgb(224, 223, 223);

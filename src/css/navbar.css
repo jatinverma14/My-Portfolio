@@ -1,5 +1,6 @@
 #navbar {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   position: sticky;
@@ -11,7 +12,7 @@
 /* NAVIGATION BAR : LOGO*/
 
 .navbar_logo {
-  margin: 15px 15px;
+  margin: 2vh 0vw;
 }
 
 .navbar_logo img {
@@ -23,19 +24,21 @@
 
 #navbar ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 #navbar ul li {
   list-style: none;
   font-size: 1.4rem;
-  margin-left: 2em;
+  margin-left: 2vw;
 }
 
 #navbar ul li a {
   color: rgb(185, 184, 185);
   display: block;
   padding: 3px 5px;
-  border-radius: 20px;
+  border-radius: 0.65em;
   text-decoration: none;
   font-family: "Lobster", cursive;
   font-size: 1.9rem;

@@ -1,0 +1,127 @@
+@media screen and (max-width: 1100px) {
+    #home_img img{
+        height: 400px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    #home_img img{
+        margin-bottom: 0px;
+    }
+    #home{
+        justify-content: center;
+    }
+    .exp-item{
+        font-size: 140%;
+    }
+    .exp-item button{
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 638px) {
+    .haome_data_item{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #home{
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #home{
+        height: 76vh;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .haome_data_item{
+        color: #000000;
+        background-image: linear-gradient(rgb(128, 128, 178), rgb(241, 67, 228));
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    #contactus input{
+      width: 60vw;
+      height: auto;
+  }
+  #contactus textarea{
+      height: 20vh;
+      width: 60vw;
+  }
+  #contact-reset input{
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 2400px) {
+    .pr-item2{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1780px) {
+    .pr-item2{
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .pr-item2{
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .pr-item2{
+        max-width: 350px;
+        height: 320px;
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .pr-item2{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .pr-item2 img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 2412px) {
+    .exp-item{
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .exp-item{
+        font-size: 130%;
+    }
+}
+
+@media screen and (max-width: 1055px) {
+    .exp-item{
+        max-height: 300px;
+        font-size: 130%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .exp-item{
+        line-height: 120%;
+        max-height: 147px;
+        font-size: 130%;
+    }
+    .exp-item img{
+        display: none;
+    }
+}

@@ -1,15 +1,15 @@
 #home {
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     height: 88vh;
   }
   
   #home_img img {
-    height: 60vh;
+    width: 19vw;
     display: flex;
     z-index: -1;
-    margin-right: 6rem;
     border: 2px solid rgb(128, 18, 18);
     border-radius: 10px;
     box-shadow: -9px -9px 5px rgb(8, 0, 8);
@@ -24,7 +24,7 @@
   #home_data {
     display: flex;
     flex-direction: column;
-    font-size: 1.7rem;
+    font-size: 220%;
     font-family: "Libre Baskerville", serif;
   }
   
