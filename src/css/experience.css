@@ -23,7 +23,7 @@
     display: flex;
     font-size: 170%;
     border-radius: 15px;
-    max-width: 320px;
+    margin-left: 10px;
     flex-direction: column;
     margin-top: 1rem;
     background-color: rgb(190, 247, 178);
@@ -36,7 +36,7 @@ padding-bottom: 1.5vh;
 
   .exp-item img {
     height: 23vh;
-    width: 19.5vw;
+    width: 300px;
     border-radius: 15px;
     justify-content: center;
     margin: auto;
